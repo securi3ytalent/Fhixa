@@ -454,7 +454,7 @@ section .m-auto{
 
 /* How we build section*/
 .build-section-top{
-    padding: 95px 0;
+    padding: 80px 0;
 }
 .build-section-top button {
 	width: 140px;
@@ -636,6 +636,244 @@ section .m-auto{
 	margin-left: 28px;
 	padding: 18px 16px;
 }
+
+/* Case studies section */
+
+.build-section-top .btn-box-1{
+    padding: 0;
+    border-radius: 0;
+}
+.build-section-top .btn-box-2 {
+	padding: 0;
+	border-radius: 0;
+	margin: 0 -5px;
+    background-color: #000;
+    color: #FFF;
+}
+
+.Casestudies-main-top {
+	display: flex;
+	width: 100%;
+	margin-top: 50px;
+}
+.Casestudies-main-left{
+    width: 30%;
+}
+.Casestudies-main-right{
+    width: 70%;
+}
+.build-section-top .span {
+	border-bottom: 1px solid #000000;
+	width: 100%;
+	margin-top: -12px;
+    
+}
+.Casestudies-main-right-box div{
+    border: 1px solid #000;
+    border-style: dashed;
+    padding: 20px;
+}
+.Casestudies-main-right-box .box-six img {
+	width: 600px;
+}
+.main-right-box-bottom{
+    margin-top: 25px;
+    position: relative;
+}
+.main-right-box-bottom button:hover{
+    background-color: #000;
+    color: #FFF;
+}
+.main-right-box-bottom a img {
+	width: 30px;
+	position: absolute;
+	top: 52px;
+	right: 0;
+}
+
+/* Awards and testimonials area */
+.awards-one{
+    font-size: 40px;
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+.awards-one-border{
+    border-bottom:2px solid #534f4f;
+}
+.fhixa {
+	font-size: 19px;
+	font-weight: 700;
+	padding-top: 10px;
+}
+.fhixa-span {
+    margin-right:10px;
+    font-weight: 100;
+}
+
+/* box  */
+.gred-1 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	padding: 40px 60px 60px 76px;
+	border-radius: 10px;
+	transition: 0.3s;
+}
+.gred-1:hover {
+  background: #54BD95;
+}
+.gred-1 div h2{
+  font-size: 30px;
+    
+}
+
+.grid-con{
+   display: flex;
+}
+.gred-con{
+    display: flex;
+    
+}
+
+/* Blog section */
+
+.col-3 {
+	flex: 0 0 auto;
+	width: 30%;
+	margin-right: -24px;
+}
+.col-3 .grid-box{
+    border: 1px solid #000;
+    padding: 10px;
+    height: 157px;
+    border-right: none;
+    
+}
+.grid-box .gread-p {
+	width: 245px;
+	margin-top: 10px;
+	font-size: 18px;
+	text-align: start;
+}
+.grid-box dev{
+    display: flex;
+    align-items: center;
+}
+.col-3 .grid-box p {
+	width: 179px;
+	font-size: 18px;
+    text-align: start;
+}
+.col-3 .grid-box div {
+	display: flex;
+	padding: 15px 0;
+}
+.grid-box div a{
+    text-decoration: none;
+}
+.grid-box div a h5{
+    font-size: 15px;
+}
+.grid-box div a img {
+	width: 22px;
+	margin: 0 0 0px 12px;
+}
+.col-6 .grid-box{
+    height: 157px;
+}
+.grid-box a img{
+    width: 30px;
+}
+.col-6 .grid-box div{
+    display: flex;
+}
+.grid-box .gread-p {
+    width: 245px;
+}
+.col-6 .grid-box {
+	border: 1px solid #000;
+	height: 157px;
+	padding: 0 10px;
+}
+.grid-box .gread-div{
+    display: flex;
+    padding: 44px 0;
+}
+.grid-box2 {
+	background-color: #000000;
+	width: 100%;
+	margin-top: -50px;
+	padding: 10px;
+	height: 157px;
+	color: #FFF;
+	margin-left: 25px;
+}
+.grid-box3 {
+	border: 1px solid #000;
+	width: 100%;
+	margin-top: -50px;
+    padding: 10px;
+    height: 157px;
+}
+.col-8 {
+	flex: 0 0 auto;
+	width: 65% !important;
+}
+.col-4 {
+	flex: 0 0 auto;
+	width: 35% !important;
+}
+.grid-box2 p {
+	text-align: start;
+	width: 180px;
+}
+.grid-box3 p {
+	text-align: start;
+	width: 180px;
+}
+
+.grid-box2 div{
+    text-align: start;
+    display: flex;
+    padding-top: 20px;
+
+}
+.grid-box3 div{
+    text-align: start;
+    display: flex;
+    padding-top: 20px;
+
+}
+.grid-box2 div a,
+.grid-box3 div a{
+    text-decoration: none;
+    color: #fff;
+}
+.grid-box3 div a h5,
+.grid-box2 div a h5{
+    font-size: 15px;
+}
+
+.grid-box2 div a img,
+.grid-box3 div a img{
+    width: 22px;
+    margin-left: 10px;
+}
+.gread-div2 a h5{
+    color: #000;
+}
+
+
+
+
+
+
+
+
+
 
 
 
@@ -837,5 +1075,69 @@ section .m-auto{
   }
 
 
+/* Case studies section */
+@media only screen and (max-width: 991px) {
+    .Casestudies-main-top {
+        flex-direction: column;
+        margin: 50px auto;
+        display: inline-block;
+        text-align: center;
+    }
 
+    .Casestudies-main-right-box div{
+        border: 1px solid #000;
+        border-style: dashed;
+        padding: 40px;
+        overflow: hidden;
+        width: 100%;
+        display: block;
+    }
+    .Casestudies-main-right-box div img{
+        width: 100%;
+    }
+    .Casestudies-main-right-box div {
+        padding: 5px;
+        margin: auto;
+        display: block;
+        text-align: center;
+    }
+    .Casestudies-main-left{
+        margin: auto;
+        display: block;
+    }
+    .Casestudies-main-right{
+        display: block;
+        width: 100%;
+        margin: auto;
+    }
+    .Casestudies-main-right-box .box-six img {
+        width: 100%;
+    }
+    .Casestudies-main-left h4{
+        padding-bottom: 10px;
+    }
+    
+  }
+/* Awards and testimonials area */
+@media only screen and (max-width: 991px) {
+    .gred-con {
+        display: flex;
+        flex-direction: column;
+    }
+    .grid-con div {
+        display: block;
+        width: 100%;
+        margin: 15px auto;
+    }
+    .grid-con{
+        display: flex;
+        flex-direction: column;
+     }
+     .gred-con{
+         display: flex;
+         flex-direction: column;
+         margin: 10px 0;
+         
+     }
+  }
 
