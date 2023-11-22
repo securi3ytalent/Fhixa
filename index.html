@@ -1,0 +1,418 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Fhixa</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+    <!-- jquery CDN -->
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="/resources/demos/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/e616f9aa13.js" crossorigin="anonymous"></script>
+    <!-- Google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,200;6..12,300;6..12,400;6..12,500;6..12,600;6..12,700;6..12,800&family=Outfit:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+
+  </head>
+  <body>
+    
+    <header>
+        <span class="top-img"></span>
+        <nav class="navbar navbar-expand-lg pt-4">
+          <div class="container d-flex">
+            <a href="#"><img src="img/icon/Fhixa.svg" alt="trueusdnet logo"></a>
+            <!-- offcanva-menu -->
+            <div class="offcanva-menu">
+              <div class="menu-bg" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions"><i class="fa-solid fa-bars"></i></div>
+              <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+                <div class="offcanvas-header">
+                  <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel"><img src="img/icon/Fhixa.svg" alt=""></h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                  <ul class="list-group">
+                    <li class="list-group-item list-group-item-action list-group-item-primary"><a class="nav-link" href="#">Home</a></li>
+                    <li class="list-group-item list-group-item-action list-group-item-primary"><a class="nav-link" href="#">Services</a></li>
+                    <li class="list-group-item list-group-item-action list-group-item-primary"><a class="nav-link" href="#">Clients</a></li>
+                    <li class="list-group-item list-group-item-action list-group-item-primary"><a class="nav-link" href="#">Blog</a></li>
+                    <li class="list-group-item list-group-item-action list-group-item-primary"><a class="nav-link" href="#">About us</a></li>
+                    <li class="list-group-item list-group-item-action list-group-item-primary"><a class="nav-link" href="#">Login</a></li>
+                    <li class="list-group-item list-group-item-action list-group-item-primary"><a class="nav-link" href="#">Let’s chat</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          <!-- offcanva-menu -->
+            <!-- main menu -->
+            <div class=" maenu collapse navbar-collapse">
+              <ul class="navbar-nav ms-auto">
+                <li class="fs-5 px-3 nav-item active"><a class="nav-link " href="#">Home</a></li>
+                <li class="fs-5 px-3 nav-item"><a class="nav-link " href="#">Services</a></li>
+                <li class="fs-5 px-3 nav-item"><a class="nav-link " href="#">Clients</a></li>
+                <li class="fs-5 px-3 nav-item"><a class="nav-link " href="#">Blog</a></li>
+                <li class="fs-5 px-3 nav-item"><a class="nav-link " href="#">About us</a></li>
+              </ul>
+            </div>
+            <!-- main menu -->
+            <div class="pading">
+              <button class="btn-1">Login</button>
+              <button class="btn-2">Let’s chat</button>
+            </div>
+          </div>
+        </nav>
+        <!-- Hero section -->
+        <section class="hero-sec ">
+            <div class="hero-main-box d-flex">
+                <div class="right-box">
+                    <h1><span class="sp-1">B2B</span> Software Development Firm Launch <span class="sp-2">Faster</span> And Scale <span class="sp-2">Smarter</span></h1>
+                    <p>We're a dynamic team of developers and cybersecurity experts dedicated to catapulting your business growth through our proficiency in custom software development and comprehensive security testing services.</p>
+                    <div class="button-area">
+                        <button>Let’s chat</button>
+                        <a href="#"><img src="img/arrow-small-right.png" alt=""></a>
+                    </div>
+                </div>
+                
+    
+                <div class="left-box">
+                   <div class="form-box">
+                    <h5>Let's hear what you are looking for and we'll help you find the best solution!</h5>
+                    <form action="">
+                        <label for="name">Full name <span>*</span></label>
+                        <input id="name" type="text" placeholder="e.g. Stanford Auston">
+    
+                        <label for="Company">Company name<span>*</span></label>
+                        <input id="Company" type="text" placeholder="e.g. Google LLC">
+    
+                        <label for="email">Work email<span>*</span></label>
+                        <input id="email" type="email" placeholder="e.g. stan@google.com">
+                        
+                        <label for="Message">Message<span>*</span></label>
+                        <input id="Message" type="text" placeholder="Details, any info, collab">
+    
+                        <div>
+                            <input type="checkbox" name="box" id="box">
+                            <label class="text-collor" for="box">I hereby accept all <a href="#">terms and conditions </a><span>*</span></label>
+                        </div>
+    
+                        <button>Send message</button>
+                    </form>
+                   </div>
+                </div>
+            </div>
+        </section>
+      </header>
+
+    <!-- Some of logo -->
+    <section class="mx-5">
+      <div class="m-auto">
+        <p>Trusted by partners</p>
+      </div>
+      <div class="container text-center">
+        <div class="row responsive">
+          <div class="col">
+            <div class="rounded py-2 px-1 mx-3 bg-light"><img src="img/icon/unsplash.svg" alt=""></div>
+          </div>
+          <div class="col">
+            <div class="rounded py-2 px-1 mx-3 bg-light"><img src="img/icon/notion.svg" alt=""></div>
+          </div>
+          <div class="col">
+            <div class="rounded py-2 px-1 mx-3 bg-light"><img src="img/icon/intercom.svg" alt=""></div>
+          </div>
+          <div class="col">
+            <div class="rounded py-2 px-1 mx-3 bg-light"><img src="img/icon/descript.svg" alt=""></div>
+          </div>
+          <div class="col">
+            <div class="rounded py-2 px-1 mx-3 bg-light"><img src="img/icon/grammarly.svg" alt=""></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- accordion  area -->
+    <section>
+      <div class="container my-5">
+        <div class="main-box">
+          <div class="padding-box">
+            <div class="box-left">
+              <h2>From idea to launch, we can help you at every stage!</h2>
+              <p>We help companies innovate, launch, and lead through efficient UX design & quality products</p>
+            </div>
+            <div class="box-right">
+              <!-- ------------ -->
+              <div id="box-main container">
+                <div class="slide-down">
+                   <h3 class="click-slide-1"><span><i class="fa-solid fa-chevron-right"></i></span>Research</h3>
+                  <ul class="toggle-down-1">
+                   <li>UX Research</li>
+                   <li>UX Audit</li>
+                   <li>Discovery Workshops</li>
+                   <li>Usability Testing</li>
+                  </ul>
+                </div>
+                <div class="slide-down">
+                  <h3 class="click-slide-2"><span><i class="fa-solid fa-chevron-right"></i></span>Design</h3>
+                  <ul class="toggle-down-2">
+                   <li>UX Research</li>
+                   <li>UX Audit</li>
+                   <li>Discovery Workshops</li>
+                   <li>Usability Testing</li>
+                  </ul>
+                </div>
+                <div class="slide-down">
+                  <h3 class="click-slide-3"><span><i class="fa-solid fa-chevron-right"></i></span> Deploy</h3>
+                  <ul class="toggle-down-3">
+                   <li>UX Research</li>
+                   <li>UX Audit</li>
+                   <li>Discovery Workshops</li>
+                   <li>Usability Testing</li>
+                  </ul >
+                </div>
+                
+              </div>
+            </div>
+          </div>
+      
+        </div>
+      </div>
+    </section>
+    <!-- Services area -->
+    <section>
+      <div class="container">
+        <div class="herader-top">
+          <h2>Services</h2>
+          <hr>
+        </div>
+        <div class="header-bottom">
+          <div class="service-main-box">
+            <div class="service-area-right">
+              <div class="service-area-right-top">
+                <h1>Web Penetration Testing</h1>
+                <a href="#"><img src="img/icon/arrow_up.svg" alt=""></a>
+              </div>
+              <div class="service-area-right-bottom">
+                <marquee behavior="" direction="">Web Penetration Testing</marquee>
+              </div>
+            </div>
+            <div class="service-area-left">
+              <div class="service-area-left-box1">
+                <div class="flex-text-icon">
+                  <h2>Android/iOS application development</h2>
+                  <a href="#"><img src="img/icon/arrow_up.svg" alt=""></a>
+                </div>
+                <div class="service-area-button">
+                  <button>Websites</button>
+                  <button>Web apps</button>
+                  <button>Intregrations</button>
+                </div>
+                <div class="service-area-ani1">
+                  <marquee behavior="" direction="">Android/iOS application development</marquee>
+                </div>
+              </div>
+              <div class="service-area-left-box2">
+                <div class="flex-text-icon">
+                  <h2>Android/iOS application development</h2>
+                  <a href="#"><img src="img/icon/arrow_up.svg" alt=""></a>
+                </div>
+                <div class="service-area-button">
+                  <button>Websites</button>
+                  <button>Web apps</button>
+                  <button>Intregrations</button>
+                </div>
+                <div class="service-area-ani2">
+                  <marquee behavior="" direction="">Android/iOS application development</marquee>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- How we build section -->
+    <section>
+      <div class="container">
+        <div class="build-section-top">
+          <button>PROCESSES</button>
+          <h2>How we build</h2>
+          <hr>
+        </div>
+        <div class="build-sectio-bottom">
+          <div class="build-sec-bottom-left">
+           
+            <div class="section-1">
+              <div class="section-1-box">
+                <img src="img/icon/Discovery.svg" alt="">
+                <h4>Discovery phase</h4>
+                <img class="img-cls" src="img/icon/arrow_down.svg" alt="">
+              </div>
+            </div>
+            <p>We prioritize our client’s success, understanding your unique needs and delivering tailored solutions that drive your business growth.</p>
+            <div class="section-2">
+              <div class="div-1"><span>1</span><h5>Get to know your project</h5></div>
+              <div class="section-2-div">
+                <div class="div-3"><span>2</span><h5>Development and design team strategy evaluation</h5></div>
+                <div class="div-4"><span>3</span><h5>Team symbiosis for better cooperation</h5></div>
+              </div>
+              <div class="div-2"><span>4</span><h5>Development plan and estimate</h5></div>
+            </div>
+
+            <div class="section-3">
+              <div class="section-2-box">
+                <img src="img/icon/Discovery.svg" alt="">
+                <h4>Discovery phase</h4>
+                <img class="img-cls-2" src="img/icon/arrow_down.svg" alt="">
+              </div>
+            </div>
+            <p>We develop your product in iterative substages, allowing for regular testing, feedback, and adjustments to ensure alignment with your expectations.</p>
+            <div class="section-3-box">
+              <div class="section-3-right">
+                <h6>1</h6>
+                <h5>Design</h5>
+              </div>
+              <div class="section-3-left">
+                <div><span>1</span><h4>Mobile Development</h4></div>
+                <div><span>2</span><h4>Web Development</h4></div>
+                <div><span>3</span><h4>Back-end Development</h4></div>
+                <div><span>4</span><h4>App penetration testing</h4></div>
+                <div><span>5</span><h4>QA</h4></div>
+              </div>
+            </div>
+            <div class="section-1 mt-5" id="section-1-relative">
+              <div class="section-1-box py-5">
+                <img src="img/icon/Discovery.svg" alt="">
+                <h4>Discovery phase</h4>
+                <img class="img-cls-2" src="img/icon/arrow_down.svg" alt="">
+              </div>
+            </div>
+            <p>Post-launch, we provide ongoing support, troubleshoot issues, and develop additional features to keep your product up-to-date and valuable.</p>
+            <div class="build-sec-bottom-left-bottom">
+              <div class="bottom-box">
+                <h4>1</h4>
+                <p>Launch</p>
+              </div>
+              <div class="bottom-box">
+                <h4>2</h4>
+                <p>Support</p>
+              </div>
+              <div class="bottom-box">
+                <h4>3</h4>
+                <p>Ongoing development</p>
+              </div>
+              
+            </div>
+
+            <div class="button-area mt-5">
+              <button>Let’s chat</button>
+              <a href="#"><img src="img/arrow-small-right.png" alt=""></a>
+            </div>
+          </div>
+          <div class="build-sec-bottom-right">
+            <img src="img/Arrow 1.png" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="build-section-top">
+          <h2>Case studies</h2>
+          <hr>
+          <button class="btn-box-1">PROCESSES</button>
+          <button class="btn-box-2">PROCESSES</button>
+        </div>
+        
+      </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="my-5">
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum aspernatur vitae totam. Officiis hic, eum optio adipisci porro voluptatibus minima quibusdam, debitis, rerum aliquam dolorem. Nostrum, illo blanditiis iste hic sapiente, magni eaque deleniti modi quasi officia rem eveniet soluta. Tempore obcaecati mollitia, quae culpa quis earum aliquam ipsa blanditiis repudiandae nostrum dolor voluptatibus ad eum consectetur! Error obcaecati, commodi quidem reiciendis totam assumenda quo voluptate explicabo maiores cum non corporis a est quisquam debitis ex quibusdam hic animi perspiciatis praesentium repudiandae illo tenetur repellendus. Accusamus facilis dolor neque harum inventore minima consectetur repudiandae amet debitis, cumque magni iste facere eius vero sunt itaque natus corrupti assumenda ipsa nisi in commodi ratione voluptates deserunt! Est quo minima voluptatem perferendis voluptas eius fuga odit doloribus, modi, dignissimos tenetur. Maxime vero animi alias ab? Adipisci natus vel deleniti, aliquam illum dicta ut. Saepe, tenetur necessitatibus praesentium consectetur autem quam, voluptatum et beatae, aliquam ipsa numquam nobis atque corrupti aliquid quod odit harum voluptas voluptatem sequi rem officiis nisi aperiam incidunt! Eveniet aspernatur itaque perferendis accusantium eos soluta laboriosam cum. Debitis asperiores nulla odio eligendi natus perferendis voluptates voluptate incidunt, in distinctio sunt, esse quisquam, nihil officia culpa quo neque harum placeat minima rerum illo veniam facere delectus? Velit qui aut fugiat dolorum ad sapiente! Dicta eius ducimus iusto dolore quisquam, voluptatibus sit rerum culpa! Ab praesentium sunt aspernatur labore consectetur unde, voluptatibus modi reprehenderit quas ratione et ex adipisci at quidem esse amet qui? Cum enim mollitia necessitatibus maiores perspiciatis, perferendis dolorem eveniet quod a, culpa, aspernatur illo animi tempora laborum vitae dolor tenetur adipisci omnis facere eligendi ipsum. Tempore rerum quisquam voluptas tenetur deleniti explicabo modi soluta debitis dolorem totam. Similique, in quaerat exercitationem tempora nam dicta velit neque sint recusandae eius necessitatibus illum a laborum enim, eveniet sapiente? Ab, nobis. Sint optio, id ad dignissimos sunt error mollitia tenetur nobis. Corporis tenetur adipisci quas ex magnam doloremque ad numquam aliquid? Recusandae iste laboriosam consequatur, incidunt unde eius fuga quos pariatur molestias placeat nobis natus debitis perferendis ad earum distinctio possimus ipsa ut ratione. Dicta rerum deserunt labore, autem ipsum quo ad exercitationem eum neque velit sed, amet distinctio assumenda tempore. Voluptates, rerum voluptas suscipit corporis repudiandae quasi rem nesciunt autem expedita beatae asperiores tenetur non delectus aperiam esse eveniet quaerat? Sequi, eum voluptatibus libero aspernatur aliquam fugiat voluptatum error laboriosam obcaecati optio doloremque eos asperiores iste dolor debitis exercitationem quos ipsum quas neque! Ullam dolore a ea beatae pariatur recusandae laboriosam aspernatur doloribus reprehenderit. Quas excepturi repellendus nihil fugit! Consequuntur in, repellat magnam dignissimos nihil suscipit, perspiciatis impedit beatae aliquid incidunt corrupti praesentium eveniet. Voluptates ratione corporis est magni nobis explicabo dolor aperiam dolores molestias, ullam iure dolorem iste soluta debitis hic, possimus reprehenderit quidem animi tempora molestiae voluptatem amet? Dicta repudiandae magnam cumque tenetur sequi hic blanditiis molestiae temporibus rerum reiciendis provident dignissimos, molestias nobis ullam nisi obcaecati, quia vero, rem voluptate iusto consequuntur? Earum voluptate dolor sed beatae! Expedita reprehenderit ducimus vitae atque non omnis quo amet sed nostrum rem hic assumenda ab possimus neque vel recusandae consectetur, suscipit quos debitis laboriosam eos? Harum, earum, maiores quis ipsum id quidem hic similique vitae sint, adipisci corporis quod magnam quos vel officiis dolore sed unde. Laboriosam quisquam fugit libero voluptatum minus ratione aliquam quos iure vitae neque ullam dicta officia numquam expedita nam inventore explicabo obcaecati in, ex possimus? Vel quidem veritatis rerum ab sunt cum quas aliquid cumque, dignissimos perspiciatis impedit temporibus qui. Veritatis, voluptate provident. A, minus vel consectetur cum cumque eligendi asperiores, dolor deleniti corrupti eos soluta delectus enim. Modi molestiae temporibus voluptatem error, sed, ab ut repudiandae earum minima eligendi debitis quod enim illo saepe est? Nulla nihil tenetur soluta sed in! Delectus ipsam rerum quaerat aliquid velit corporis voluptatem suscipit aut, quos, repudiandae vel, dolorem nihil rem dignissimos voluptatibus modi eaque veniam nesciunt reiciendis harum consequuntur iure perspiciatis. Blanditiis, odit quis nobis at cupiditate modi, quae numquam minus quidem perferendis tempore necessitatibus, eligendi id eos cumque sit aliquam! Consectetur inventore ipsa veniam eos deserunt, placeat incidunt expedita illo! Est, placeat praesentium recusandae optio eaque tempora adipisci consectetur assumenda totam dicta consequuntur nesciunt ipsam nihil, debitis cumque quia quae nemo ducimus. Sequi voluptatem error quod corporis. Modi natus, itaque sint, inventore impedit, ipsa quasi veritatis quaerat distinctio magnam harum commodi soluta dolore laborum nam odio vitae doloribus quam amet tempore quidem asperiores. Vel delectus aut magni aperiam! Itaque, voluptatum. Natus qui voluptas totam in explicabo temporibus velit, quasi nostrum nisi corrupti error aperiam incidunt iste beatae pariatur, dolorem porro eveniet quae voluptatibus sapiente. Saepe harum dolorem, omnis tempora eaque odit repudiandae magni natus asperiores voluptas nobis quidem totam, eligendi, veritatis molestias vero. Commodi nulla architecto totam animi cupiditate ab iure, dignissimos obcaecati quis praesentium accusamus maiores placeat dolor consequatur temporibus incidunt non error quae ipsam ad excepturi. Mollitia maiores aut, pariatur provident illo dolorem distinctio! Soluta commodi maxime ducimus odit, ipsa consequatur! Nesciunt sed commodi nemo obcaecati quia voluptatum perspiciatis inventore temporibus veniam quae earum vitae facere, culpa quidem beatae a aliquam alias harum? Distinctio sequi labore, quis magni illum minima accusamus cupiditate mollitia, blanditiis animi consequuntur dolor vel delectus quam eaque neque doloribus totam numquam harum cumque. Beatae architecto repellat maxime laudantium rerum quod dolorum numquam quis accusantium mollitia adipisci sed veritatis porro dolorem aliquam voluptates provident eos, reiciendis minus quaerat laborum dolore dicta consequuntur eum. Maiores temporibus quasi tempore illo sunt possimus quas necessitatibus suscipit, alias animi perspiciatis deleniti vero consequatur. Laudantium accusantium accusamus iste voluptatum ipsa cupiditate labore blanditiis qui hic quia sint, magnam fuga dignissimos deleniti? Debitis autem dolores, minima cum ipsa expedita aspernatur. Exercitationem, magnam dolor eligendi pariatur totam, excepturi harum nesciunt praesentium quod tenetur consectetur quaerat eos quidem itaque id enim fuga iure alias vel non cum veniam. Sequi tempore consequuntur eum at, culpa pariatur repellendus consectetur harum eaque odio dignissimos qui temporibus molestias atque corporis blanditiis earum labore. Perspiciatis quos temporibus in, debitis alias ab beatae, rem unde nesciunt commodi autem, corrupti velit error. Ducimus eos natus veritatis!</p>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- accordion  area -->
+    <script>
+    $( document ).ready(function() {
+      $('.click-slide-1').click(function(){
+          $('.toggle-down-1').toggle(500);
+      });
+      $('.click-slide-2').click(function(){
+          $('.toggle-down-2').toggle(500);
+      });
+      $('.click-slide-3').click(function(){
+          $('.toggle-down-3').toggle(500);
+      });
+    });
+
+
+    </script>
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>
