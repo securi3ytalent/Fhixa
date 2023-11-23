@@ -1039,6 +1039,38 @@ p.title{
     color: #FFF;
 }
 
+
+@media only screen and (max-width: 991px) {
+    .footer-main-box{
+        display: flex;
+        flex-direction: column;
+    }
+    .footer-left-area {
+        display: inline-block;
+        width: 100%;
+        margin: auto;
+        text-align: center;
+    }
+    .footer-right-area {
+        display: inline-block;
+        width: 100%;
+        margin: auto;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   /* Menu ber sesponsive */
   @media only screen and (max-width: 991px) {
     .pading{
